@@ -312,3 +312,24 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
+@font-face { font-family: Blacksword; src: url('../fonts/Blacksword.otf'); } 
+@font-face { font-family: Altamonte; src: url('../fonts/Altamonte.otf'); } 
+@font-face { font-family: Landscape; src: url('../fonts/Landscape.otf'); } 
+@font-face { font-family: Heart; src: url('../fonts/heart.ttf'); } 
+.blacksword{
+	font-family: Blacksword ! important;
+}
+.altamonte{
+	font-family: Altamonte ! important;
+}
+.landscape{
+	font-family: Landscape ! important;
+}
+.heart{
+	font-family: Heart ! important;
+}
+.introText{
+	font-family: Blacksword ! important;
+	font-size: 35px!important;
+}
+
